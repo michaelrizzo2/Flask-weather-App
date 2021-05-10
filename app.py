@@ -40,4 +40,12 @@ def index():
     #This will be for putting the data insode of an json object
     for city in cities:
         #Setting up the json 
-        city_json_object=requests
+        city_json_object=requests.get(url.format(city.name)).json()
+        #putting json data into weather dictionary
+        weather={
+            'city':city.name,
+            'temperature':city_json_object['main']['temp'],
+            'description':city_json_object['weather'][0]['description'],
+            'icon':city_json_object['weather'][0]['icon']
+        }
+        #adding new dictionary to the list.
