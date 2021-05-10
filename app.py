@@ -28,4 +28,11 @@ def index():
             my_database.session.commit()
     
     #This is where we will get all of the cities for the next query
-    
+    cities=City.query.all()
+
+    #This will be for getting all of the weather data
+    url='http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=271d1234d3f497eed5b1d80a07b3fcd1'
+
+    #This will hold all of the weather data
+    weather_data=[]
+
