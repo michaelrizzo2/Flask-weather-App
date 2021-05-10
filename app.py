@@ -1,4 +1,5 @@
 #import statements
+import requests
 from flask import Flask,render_template,request
 from flask_sqlalchemy import SQLAlchemy
 
@@ -36,3 +37,7 @@ def index():
     #This will hold all of the weather data
     weather_data=[]
 
+    #This will be for putting the data insode of an json object
+    for city in cities:
+        #Setting up the json 
+        city_json_object=requests
