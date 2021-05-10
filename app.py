@@ -14,3 +14,18 @@ my_database=SQLAlchemy(app)
 class City(my_database.model):
     id=my_database.column(my_database.Integer,primary_key=True)
     name=my_database.column(my_database.String(50),nullable=False)
+
+#Setting up the routes,
+@app.route('/',methods=["GET","POST"])
+def index():
+    if request.method=="POST":
+        new_city=request.form.get('city')
+
+        if new_city:
+            new_city_object=City(name=new_city)
+            #Adding new information to the database
+            my_database.session.add(new_city_object)
+            my_database.session.commit()
+    
+    #This is where we will get all of the cities for the next query
+    
