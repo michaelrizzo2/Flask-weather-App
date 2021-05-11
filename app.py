@@ -1,5 +1,6 @@
 #import statements
 import requests
+import os
 from flask import Flask,render_template,request
 from flask_sqlalchemy import SQLAlchemy
 
@@ -49,3 +50,10 @@ def index():
             'icon':city_json_object['weather'][0]['icon']
         }
         #adding new dictionary to the list.
+        weather_data.append(weather)
+
+    return render_template('weather.html',weather_data=weather_data)
+
+
+if __name__ == '__main__':
+    app.run(debug=True,host='0.0.0.0',port=int(os.environ.get('PORT', 8080)))
