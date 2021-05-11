@@ -1,1 +1,9 @@
 flask-weather-app-937e6 is the project id
+
+Error Message
+
+=== Deploying to 'flask-weather-app-937e6'...
+
+i  deploying hosting
+
+Error: Specified public directory 'static' does not exist, can't deploy hosting to site flask-weather-app-937e6
