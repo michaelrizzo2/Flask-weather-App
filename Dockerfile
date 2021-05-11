@@ -8,7 +8,7 @@ RUN pip install Flask gunicorn
 
 #3
 
-COPY src/ /app
+COPY public/src/ /app
 WORKDIR /app
 
 #4
