@@ -1,0 +1,20 @@
+{
+  "name": "Flask-weather-App",
+  "version": "1.0.0",
+  "description": "This will used open weather and this will be hosted on firebase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelrizzo2/Flask-weather-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelrizzo2/Flask-weather-App/issues"
+  },
+  "homepage": "https://github.com/michaelrizzo2/Flask-weather-App#readme"
+}
