@@ -7,3 +7,7 @@ Error Message
 i  deploying hosting
 
 Error: Specified public directory 'static' does not exist, can't deploy hosting to site flask-weather-app-937e6
+
+new error
+
+HTTP Error: 400, Cloud Run service `flask-fire` does not exist in region `us-central1` in this project.

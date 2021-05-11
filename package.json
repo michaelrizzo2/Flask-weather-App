@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/michaelrizzo2/Flask-weather-App/issues"
   },
-  "homepage": "https://github.com/michaelrizzo2/Flask-weather-App#readme"
+  "homepage": "https://github.com/michaelrizzo2/Flask-weather-App#readme",
+  "devDependencies": {
+    "firebase-tools": "^9.10.2"
+  }
 }
