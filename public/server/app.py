@@ -8,7 +8,7 @@ import firebase_admin
 #setting up firebase database link
 cred = credentials.Certificate("service key.json")
 firebase_admin.initialize_app(cred)
-firestore_database=firestore.client
+firestore_database=firestore.client()
 #Setting up the app and the needed options
 app=Flask(__name__)
 
