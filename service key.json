@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "flask-weather-app-937e6",
+  "private_key_id": "7859ca12c540a0401a3465c77d48b578c5711f22",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC9C59BljP83FTc\nIetE5BBAw3aqjjF+aNcQ5CGOBEa0ktFJ7pieYFyS8oT63iBITZoXJ6tUCPYI7eh3\no18fnuzyEFxc4yKo5RNnxrYMS9bQ6GhDcAX8N6ILyk4zFPvK+sq60RjyM/6//Abi\n7bvMmPg5ClLSapfKf/R6n+s70Qjl8wkeZY58AJ0P/kszR2OdaIB9bKwZvjCERx+r\n6/Lb4z1j51WK7BJKjSYCyc1k5nUBuKYBOGpAHWoBxRiWnX8rXHLYsDFaW3ewynEK\nsJu6vc+40/ckPZARxBeqyRFzmHi374WbcEOT84dg50Nv2GMin8fGppGoHjP/P/iZ\naaB6EMU/AgMBAAECggEAEDZR8bmkOw2DiDQEeC5S0oBbdI794Z2za/MUiZhbnprE\nsLbHMeCJBTUf1bUnnEEYyN7nC4LlOVN7JIochfAG2U+GjD9ntoecCBdQ1McgOgmO\n/3w47INc4JlN5troKQ/O7lcw8NHStBDfX6YMUqR/t8HnORJZHXhRtWkc2aQN7kz+\nnfUBQ+ua8S/4Fr5EBcszi9D6JPtFycIckDB9GhhWE/9Tzo5hsFXzf5tl+9ES6qNN\noEiH0HpLInRtFABT/fNFE30tfmzgPmJ06RMB6Q/zApNei9VEOfGW08jqcMK+5ioU\nOSGXEvwLzaZLYWbnEdypWqRy6oTz4i/Jwxt9mqNrIQKBgQDoex1szWMQFvRETeyj\nID6q/jfMIJzivMnWJFf29p+OxdJ6JSoW2pG2P+XyL8VbhVg11DZ+pQByOB4O7j5e\naFLCe62Y2lWpaHEQGhnsujBYKWwLYdHOYEtTiGUegCqlHAb53NUFXufx0lj9yvLk\nw3zEGaXUOJ3rTo42rXnJhiNSTwKBgQDQK5iyi9JsjSsRUxSxdH+5RV2wQUaWp/V9\nxpHgHVCru5QlDix+pXUyQpF9/VBoGee4uUK3f2JXZCD6bMZu5VrHqjv89BhEpv+K\n9Q5fIvaug4fgIqD0fGKjyvK/74if9e3fZKQCZ9tu+cIa9qTStWNlPi0cCsSibi10\nmXtamTVSEQKBgQDWA3g8D/sQ9cCaHI4qQWXPbcWZ4a/rPtYjj0N3MuQBv/SZwxqy\n/TTEbKBXSkjJjsB8lUYxYd4+R5DMN+Ascqc1KDvQCbZwBJiItS6GcYRNtJwlAkDt\nVlIhrN9Bq8UWR+3YGMX1cr/dKsIHqMvfcmKp995jtlcSJjfe9+W0cgqUGwKBgQCV\nfJkcrhefaAhjWnvjqrsFenB634UnLtm1RmD+xU5m5D7QFUuSbpKoUvFTvhJ9jwy9\ntBva1ZjzFK4x5ubgP8de1jpZvZenxRyA1tVJMDxguYdbRsK6jo/u+xAzEHnWFK6K\n2ySDrb0ABk6DOlbGEQedbnbKSllGI0R1FLpmJtsJYQKBgQCl92VCc69Bhh//BL6d\nuTJHrKMkMugUj2Ym8DXItAkyamcRNHSzDXB0xPNR3sJaxPIo6pwf74LCcHQciZKI\ncm5Il+N1+AqAv/S3kDImjUhAWc8jKzoUK1cf0aW9D262A9O7sr68cemPW74RjPFK\n+g55PqCOfdFCE87/5s/s7IpDyA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-7rluh@flask-weather-app-937e6.iam.gserviceaccount.com",
+  "client_id": "111831882480817315687",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-7rluh%40flask-weather-app-937e6.iam.gserviceaccount.com"
+}
