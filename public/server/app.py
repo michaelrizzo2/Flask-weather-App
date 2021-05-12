@@ -29,8 +29,8 @@ def index():
     #putting json data into weather dictionary
     weather={
         'city':new_city,
-        'temperature':city_json_object['main']['temp'],
         'description':city_json_object['weather'][0]['description'],
+        'temperature':city_json_object['main']['temp'],
         }
         #adding new dictionary to the list.
     firestore_database.collection(u'weather').add(weather)
