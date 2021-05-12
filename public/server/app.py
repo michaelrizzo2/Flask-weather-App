@@ -2,6 +2,9 @@
 import requests
 import os
 from flask import Flask,render_template,request
+from firebase import firebase
+from firebase_admin import credentials
+#setting up firebase database link
 
 #Setting up the app and the needed options
 app=Flask(__name__)
