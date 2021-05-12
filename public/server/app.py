@@ -17,7 +17,6 @@ def index():
 
     if new_city:
        pass 
-    #This is where we will get all of the cities for the next query
 
     #This will be for getting all of the weather data
     url=f'http://api.openweathermap.org/data/2.5/weather?q={new_city}&units=imperial&appid=271d1234d3f497eed5b1d80a07b3fcd1'
