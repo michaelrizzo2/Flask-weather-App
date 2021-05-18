@@ -6,7 +6,7 @@ from firebase import firebase
 from firebase_admin import credentials,firestore 
 import firebase_admin
 #setting up firebase database link
-cred = credentials.Certificate("../../service key.json")
+cred = credentials.Certificate("../../../service key.json")
 firebase_admin.initialize_app(cred)
 firestore_database=firestore.client()
 #Setting up the app and the needed options
